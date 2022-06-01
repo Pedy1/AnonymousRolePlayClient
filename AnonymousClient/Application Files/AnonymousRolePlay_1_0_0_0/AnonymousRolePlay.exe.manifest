@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AnonymousRolePlay.exe" version="1.0.0.0" publicKeyToken="08127f3d55697f49" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="demo2.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AnonymousRolePlay" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AnonymousRolePlay.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AnonymousRolePlay.exe" size="4136864">
+      <assemblyIdentity name="AnonymousRolePlay" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7eStMYDfAGAGFY31qRQILgmaMWwsIHzxVmru8Ei5qsQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BouncyCastle.Crypto.dll" size="2453504">
+      <assemblyIdentity name="BouncyCastle.Crypto" version="1.8.3.0" publicKeyToken="0E99375E54769942" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SikSNsUBe/37MPrUw9tNBhTDYsS1NAnGELEtSD17JuY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="fivemLuncher.dll" size="265728">
+      <assemblyIdentity name="fivemLuncher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fWYLT3DRmsjEjWa1cznx1QxEso4ScR+spGtgzYc3ve8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Google.Protobuf.dll" size="298496">
+      <assemblyIdentity name="Google.Protobuf" version="3.6.1.0" publicKeyToken="A7D26565BAC4D604" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tmCHIa/sZfxfbRML4V98ONw3aJn73tQolsd5EaiejRM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="787968">
+      <assemblyIdentity name="MySql.Data" version="8.0.19.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>g9XzK0Ar9gtq6r20XP7q4pKypZDp01G/gHLPQ2WGhKs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Renci.SshNet.dll" size="422912">
+      <assemblyIdentity name="Renci.SshNet" version="2016.1.0.0" publicKeyToken="1CEE9F8BDE3DB106" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9jFe0UZDj3cCAzaBBD+P6WkO05oqvJoZIkZCSUSjono=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ubiety.Dns.Core.dll" size="58880">
+      <assemblyIdentity name="Ubiety.Dns.Core" version="2.2.1.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vblqzZEk95skp7R6xQx++G9KTOmkds+w06dENzeHS4k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="aa55e1c925c37-1.ico" size="224062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jSHERf2hX9YMoL5MbZ2CBroQk3u+GoZy/PGf/ZXz49A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AnonymousRolePlay.exe.config" size="967">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vAnw5Rl1AmP6cC0V1xVwm42laorgHvWds1mHHhS4zk4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="demo2.ico" size="161193">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/dLK+ggVkoWzob0GASMQqtV2iXq6SK1I01UqgHs7BF4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PEDY\pocik" issuerKeyHash="8c472fc16a30a596f92ee9a2ea59a1cdcb7358cf" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MmEXkNWkiLcFDAerFvQ9R/lR6ZWHjkuCqhPXN7G2zX8=</DigestValue></Reference></SignedInfo><SignatureValue>mFBCU679M+rPzeKZP3hIsoco8H6O7CzRR1u3Th8TdOr2Wrto5/fiYR/DcKSSEbENgqjI9xtD4uZZ5We+R5WJ5H5+wdwm6gJOAZq+xbbcq5XRPhCxvLA6p+eegPCKIHoUdELXgtBC5RjbSKrqvLizi9+LtyR1OfRJYRVpdQ739co=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qgFf4YthJqrGDSn5kche2k2CgsMNGz5+viIgNkvY8Cr0rO7IW0QVBShEVmR6SWCzXqaYqbkO9xWyXwvL2QEui6CyZoiJ89a+iqs8dH6AUwfmCCJoifbEtxIF6OqoKhhkF7itkh7360Ze9sNZyZ/zpy+qhzIph2X9Bg+2Cue6k0U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7fcdb6b137d713aa824b8e8795e951f9473df416ab070c05b788a4d590176132" Description="" Url=""><as:assemblyIdentity name="AnonymousRolePlay.exe" version="1.0.0.0" publicKeyToken="08127f3d55697f49" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PEDY\pocik</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ASgI6wPeIKN06u8zg9Ap2RgeBVT46jL+WPCZyZdmBAY=</DigestValue></Reference></SignedInfo><SignatureValue>iJODL9/wzQSmzSGTiaeBnyNIjEuI2B//CkDfXSFOIOTEq8CDmcL8WMTBh6tE3qwhEjDdWtFI+4s5PcLimVewKtsoFbIDThiHF5HhWBCq+F0svRUmRVMldNebs4Qsu+1Qvvo1JMZflmCkw1jW3RVWIfnQ6IEQWXTx8qjnyBwpgCU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qgFf4YthJqrGDSn5kche2k2CgsMNGz5+viIgNkvY8Cr0rO7IW0QVBShEVmR6SWCzXqaYqbkO9xWyXwvL2QEui6CyZoiJ89a+iqs8dH6AUwfmCCJoifbEtxIF6OqoKhhkF7itkh7360Ze9sNZyZ/zpy+qhzIph2X9Bg+2Cue6k0U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQc1LbDy0WibtMpGjUYz73xTANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAUABFAEQAWQBcAHAAbwBjAGkAazAeFw0yMjA1MzExMzA1MTVaFw0yMzA1MzExOTA1MTVaMB8xHTAbBgNVBAMeFABQAEUARABZAFwAcABvAGMAaQBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqAV/hi2EmqsYNKfmRyF7aTYKCww0bPn6+IiA2S9jwKvSs7shbRBUFKERWZHpJYLNeppipuQ73FbJfC8vZAS6LoLJmiInz1r6Kqzx0foBTB+YIImiJ9sS3EgXo6qgqGGQXuK2SHvfrRl72w1nJn/OnL6qHMimHZf0GD7YK57qTRQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFJXwfEA+o1D0WJCUjbTMeUJFmZgPkFPBXxA/T3ukibaj/PO4OgcUzbY60FC6JRWNUZ7mgruyNWFXkwPtxR4LSD6Ci1kJPENCsSnGBxMFA1OsCaR9xK88+6VsymvoRvoQhouGansfo+ywKbY2EzLuPpVlI8GnS1FukrtHAOdsKNQ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
